@@ -1,7 +1,7 @@
 <header>
   <nav
     id="navbar"
-    class="fixed inset-x-0 z-20 w-full border-b border-gray-100 bg-white/80 backdrop-blur dark:border-gray-700/30 dark:bg-gray-900/80"
+    class="fixed inset-x-0 z-20 w-full border-b border-gray-100 bg-white/50 backdrop-blur"
   >
     <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
       <div class="relative flex flex-wrap items-center justify-between gap-6 lg:gap-0 lg:py-4">
@@ -13,12 +13,12 @@
           <button aria-label="humburger" id="hamburger" class="relative -mr-6 p-6 lg:hidden">
             <div
               aria-hidden="true"
-              class="m-auto h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300"
+              class="m-auto h-0.5 w-5 rounded bg-sky-900 transition duration-300"
             >
             </div>
             <div
               aria-hidden="true"
-              class="m-auto mt-2 h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300"
+              class="m-auto mt-2 h-0.5 w-5 rounded bg-sky-900 transition duration-300"
             >
             </div>
           </button>
@@ -26,31 +26,28 @@
         <div
           id="layer"
           aria-hidden="true"
-          class="fixed inset-0 z-10 h-screen w-screen origin-bottom scale-y-0 bg-white/70 backdrop-blur-2xl transition duration-500 dark:bg-gray-900/70 lg:hidden"
+          class="fixed inset-0 z-10 h-screen w-screen origin-bottom scale-y-0 bg-white/70 backdrop-blur-2xl transition duration-500 lg:hidden"
         >
         </div>
         <div
           id="navlinks"
-          class="invisible absolute top-full left-0 z-20 w-full origin-top-right translate-y-1 scale-90 flex-col flex-wrap justify-end gap-6 rounded-3xl border border-gray-100 bg-white p-8 opacity-0 shadow-2xl shadow-gray-600/10 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none lg:visible lg:relative lg:flex lg:w-auto lg:translate-y-0 lg:scale-100 lg:flex-row lg:items-center lg:gap-0 lg:border-none lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:peer-checked:translate-y-0 dark:lg:bg-transparent"
+          class="invisible absolute top-full left-0 z-20 w-full origin-top-right translate-y-1 scale-90 flex-col flex-wrap justify-end gap-6 rounded-3xl border border-gray-100 bg-white p-8 opacity-0 shadow-2xl shadow-gray-600/10 transition-all duration-300 lg:visible lg:relative lg:flex lg:w-auto lg:translate-y-0 lg:scale-100 lg:flex-row lg:items-center lg:gap-0 lg:border-none lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:peer-checked:translate-y-0"
         >
-          <div class="text-gray-600 dark:text-gray-300 lg:pr-4">
+          <div class="text-gray-600 lg:pr-4">
             <ul class="space-y-6 text-base font-medium tracking-wide lg:flex lg:space-y-0 lg:text-sm">
               <li>
-                <a
-                  class="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                  href="/pages/solution"
-                >
+                <a class="block transition hover:text-primary md:px-4" href="/pages/solution">
                   <span>menu link</span>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
+          <div class="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
             <a
-              class="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-primaryLight sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 lg:dark:before:bg-gray-800"
+              class="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100"
               href="/pages/contact"
             >
-              <span class="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">
+              <span class="relative text-sm font-semibold text-white lg:text-primary">
                 Button
               </span>
             </a>
@@ -64,13 +61,13 @@
 <section class="pt-32 sm:pt-40 md:pt-48">
   <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
     <div class="relative">
-      <h1 class="text-center text-5xl font-bold text-blue-900 dark:text-white sm:text-6xl lg:text-left lg:text-7xl">
+      <h1 class="text-center text-5xl font-bold text-blue-900 sm:text-6xl lg:text-left lg:text-7xl">
         Header
       </h1>
 
       <div class="relative items-center gap-12 lg:flex">
         <div class="text-center sm:mx-auto sm:w-11/12 md:mt-12 md:w-4/5 lg:mt-0 lg:mr-auto lg:w-6/12 lg:text-left">
-          <p class="mt-12 text-lg text-gray-600 dark:text-gray-300 sm:text-xl">
+          <p class="mt-12 text-lg text-gray-600 sm:text-xl">
             Subheader
           </p>
         </div>
@@ -82,10 +79,10 @@
 <section class="mt-32">
   <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
     <div class="text-center">
-      <h2 class="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl xl:text-5xl">
+      <h2 class="text-3xl font-bold text-gray-800 md:text-4xl xl:text-5xl">
         First subpage header
       </h2>
-      <p class="mx-auto mt-6 text-gray-700 dark:text-gray-300 md:w-3/4 lg:w-3/5">
+      <p class="mx-auto mt-6 text-gray-700 md:w-3/4 lg:w-3/5">
         First subpage subheader
       </p>
     </div>
@@ -97,17 +94,17 @@
             id="panel-0"
           >
             <div>
-              <h3 class="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">
+              <h3 class="text-2xl font-bold text-gray-900 md:text-3xl">
                 First image header
               </h3>
-              <p class="mt-8 text-gray-600 dark:text-gray-300">
+              <p class="mt-8 text-gray-600">
                 First image subheader
               </p>
             </div>
           </div>
         </div>
         <div class="-m-4 overflow-hidden p-4 sm:-mx-12 sm:px-12 md:mx-0 md:w-1/2 md:overflow-visible md:px-0">
-          <div class="relative bg-gray-100 before:absolute before:inset-0 before:scale-x-110 before:border-y before:border-gray-200 after:absolute after:inset-0 after:scale-y-110 after:border-x after:border-gray-200 dark:bg-gray-800 dark:before:border-gray-700 dark:after:border-gray-700">
+          <div class="relative bg-gray-100 before:absolute before:inset-0 before:scale-x-110 before:border-y before:border-gray-200 after:absolute after:inset-0 after:scale-y-110 after:border-x after:border-gray-200">
             <div class="relative h-96 overflow-clip py-10 sm:h-[32rem] lg:p-20">
               <div
                 data-target="panel-0"
@@ -115,7 +112,7 @@
               >
                 <img
                   src=""
-                  class="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl dark:border-transparent sm:h-[28rem]"
+                  class="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl sm:h-[28rem]"
                   alt="image"
                   width="850"
                   height="1780"
@@ -129,7 +126,7 @@
   </div>
 </section>
 
-<footer class="border-t border-gray-100 pt-32 pb-8 dark:border-gray-800">
+<footer class="border-t border-gray-100 pt-32 pb-8">
   <div class="text-center text-sm md:pl-16">
     <span>&copy; parrot.legal 2023 - </span>
   </div>
