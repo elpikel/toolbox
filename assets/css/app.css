@@ -9,6 +9,10 @@
   }
 }
 
+.normal-text {
+  font-family: "Raleway", Sans-serif;
+}
+
 .section-background {
   background-image: url(/images/bg-blur-topping.webp);
   background-position: top center;
